@@ -1,0 +1,166 @@
+{
+  "status": "System Ready",
+  "total_documents": 4,
+  "total_chunks": 12,
+  "indexed_at": "2026-09-22T13:48:36.828685+00:00",
+  "documents": [
+    {
+      "id": "bf7ae7e1-bb4d-511d-b030-0da580a3b3bb",
+      "filename": "01_annual_report_fa.pdf",
+      "title": "گزارش عملکرد سالانه ۱۴۰۴",
+      "source_format": "pdf",
+      "language": "fa",
+      "pages_count": 3,
+      "chunks_count": 5,
+      "is_indexed": true,
+      "summary": "تحلیل عملکرد مالی و عملیاتی شرکت، بررسی علل کاهش سود عملیاتی، و صورت‌های سود و زیان سالانه.",
+      "file_path": "showcase_corpus\\01_annual_report_fa.pdf",
+      "ingested_at": "2026-09-22T13:48:08.083696+00:00"
+    },
+    {
+      "id": "4eabf7a1-ff06-5152-868d-d342524ddf4f",
+      "filename": "02_financial_summary_en.pdf",
+      "title": "Alborz Pioneer Tech - Financial Summary 2025",
+      "source_format": "pdf",
+      "language": "en",
+      "pages_count": 2,
+      "chunks_count": 3,
+      "is_indexed": true,
+      "summary": "Annual financial summary in English covering statements of operations, segment revenue, and capital expenditure.",
+      "file_path": "showcase_corpus\\02_financial_summary_en.pdf",
+      "ingested_at": "2026-09-22T13:48:17.010861+00:00"
+    },
+    {
+      "id": "a8c17bba-da24-56c2-97d3-a83e199016de",
+      "filename": "03_strategy_mixed.pdf",
+      "title": "گزارش استراتژی و تحول دیجیتال — Strategy & Digital Transformation 2025-2026",
+      "source_format": "pdf",
+      "language": "mixed",
+      "pages_count": 2,
+      "chunks_count": 2,
+      "is_indexed": true,
+      "summary": "سند استراتژی تحول دیجیتال و پیاده‌سازی سیستم‌های LLM، معماری ابری و شاخص‌های کلیدی SLA.",
+      "file_path": "showcase_corpus\\03_strategy_mixed.pdf",
+      "ingested_at": "2026-09-22T13:48:26.578199+00:00"
+    },
+    {
+      "id": "3e65b20d-84ee-5ea7-b0f8-c1e26374403c",
+      "filename": "04_hr_performance_fa.pdf",
+      "title": "گزارش عملکرد منابع انسانی و سرمایه سازمانی ۱۴۰۴",
+      "source_format": "pdf",
+      "language": "fa",
+      "pages_count": 2,
+      "chunks_count": 2,
+      "is_indexed": true,
+      "summary": "گزارش سرمایه انسانی، توزیع نیروهای فنی، نرخ نگه‌داشت ۸۹ درصدی متخصصان و شاخص‌های بهره‌وری.",
+      "file_path": "showcase_corpus\\04_hr_performance_fa.pdf",
+      "ingested_at": "2026-09-22T13:48:36.742145+00:00"
+    }
+  ],
+  "chunks_by_document": {
+    "bf7ae7e1-bb4d-511d-b030-0da580a3b3bb": [
+      {
+        "chunk_id": "738dceef-1b3c-58c1-8b2f-b585acdfd16e",
+        "chunk_index": 0,
+        "page": "1",
+        "text": "در سال مالی ۴۰۴۱، درآمد کل شرکت با رشد  ۴۲درصدی به مبلغ  ۵۸۱میلیارد تومان رسید. با این وجود، سود عملیاتی شرکت از  ۲۴میلیارد تومان در سال  ۳۰۴۱به  ۱۳میلیارد تومان کاهش یافت. حاشیه سود عملیاتی شرکت از  ۲.۸۲درصد به  ۷.۶۱درصد کاهش یافته است.",
+        "search_text": "در سال مالی 4041، درآمد کل شرکت با رشد 42درصدی به مبلغ 581میلیارد تومان رسید. با این وجود، سود عملیاتی شرکت از 24میلیارد تومان در سال 3041به 13میلیارد تومان کاهش یافت. حاشیه سود عملیاتی شرکت از 2.82درصد به 7.61درصد کاهش یافته است.",
+        "token_count": 42
+      },
+      {
+        "chunk_id": "ec3ece65-5a19-5e75-8a34-a65753a67c29",
+        "chunk_index": 1,
+        "page": "1",
+        "text": "بر اساس بررسی تفصیلی صورت های مالی، مهم ترین عوامل کاهش سود عملیاتی عبارتند از: .۱افزایش  ۸۲درصدی هزینه های زیرساخت ابری و سرورهای پردازشی هوش مصنوعی در طول سال. .۲افزایش هزینه های حقوق، دستمزد و جذب نخبگان حوزه نرم افزار به علت رقابت شدید بازار کار. .۳نوسانات شدید نرخ ارز که بهای تمام شده تجهیزات شبکه و ذخیره سازی را افزایش داده است. .۴افزایش هزینه های سربار اداری و توسعه شعب استانی در دو شهر مشهد و اصفهان.",
+        "search_text": "بر اساس بررسی تفصیلی صورت های مالی، مهم ترین عوامل کاهش سود عملیاتی عبارتند از: .1افزایش 82درصدی هزینه های زیرساخت ابری و سرورهای پردازشی هوش مصنوعی در طول سال. .2افزایش هزینه های حقوق، دستمزد و جذب نخبگان حوزه نرم افزار به علت رقابت شدید بازار کار. .3نوسانات شدید نرخ ارز که بهای تمام شده تجهیزات شبکه و ذخیره سازی را افزایش داده است. .4افزایش هزینه های سربار اداری و توسعه شعب استانی در دو شهر مشهد و اصفهان.",
+        "token_count": 78
+      },
+      {
+        "chunk_id": "417f9c06-ab18-506c-a092-c4f9c263c4c4",
+        "chunk_index": 2,
+        "page": "1",
+        "text": "جدول خلاصه شاخص های مالی شرکت (ارقام به میلیارد تومان ): شاخص مالی | عملکرد سال  | ۳۰۴۱عملکرد سال  | ۴۰۴۱درصد تغییر سالانه درآمد عملیاتی کل | ۹۴۱ میلیارد تومان | ۵۸۱ میلیارد تومان | +۴۲ درصد سود ناخالص | ۱۶ میلیارد تومان | ۷۶ میلیارد تومان | +۰۱ درصد سود عملیاتی | ۲۴ میلیارد تومان | ۱۳ میلیارد تومان | -۶۲ درصد حاشیه سود ناخالص | ۹.۰۴ درصد | ۲.۶۳ درصد | -۷.۴ درصد حاشیه سود عملیاتی | ۲.۸۲ درصد | ۷.۶۱ درصد | -۵.۱۱ درصد",
+        "search_text": "جدول خلاصه شاخص های مالی شرکت (ارقام به میلیارد تومان ): شاخص مالی | عملکرد سال | 3041عملکرد سال | 4041درصد تغییر سالانه درآمد عملیاتی کل | 941 میلیارد تومان | 581 میلیارد تومان | +42 درصد سود ناخالص | 16 میلیارد تومان | 76 میلیارد تومان | +01 درصد سود عملیاتی | 24 میلیارد تومان | 13 میلیارد تومان | -62 درصد حاشیه سود ناخالص | 9.04 درصد | 2.63 درصد | -7.4 درصد حاشیه سود عملیاتی | 2.82 درصد | 7.61 درصد | -5.11 درصد",
+        "token_count": 87
+      },
+      {
+        "chunk_id": "b61e2ff5-9a27-558b-9c82-ce44ad8f0c37",
+        "chunk_index": 3,
+        "page": "2",
+        "text": "فعالیت شرکت در دو بخش اصلی سازمان دهی شده است: الف ) بخش خدمات ابری و زیرساخت داده (Cloud &amp; Data Services): درآمد این بخش با  ۵۳درصد رشد به  ۰۱۱میلیارد تومان رسید که  ۹۵درصد کل درآمد شرکت را تشکیل می دهد. به دلیل ارتقای پهنای باند و سرمایه گذاری سنگین در امنیت شبکه، حاشیه سود این بخش از ۳۳٪ به ۱۲٪ کاهش یافت. ب ) بخش راهکارهای هوش مصنوعی و نرم افزار سازمانی (Enterprise AI): درآمد این بخش  ۵۷میلیارد تومان ثبت شد . قراردادهای اشتراک سالانه (SaaS) ۰۶ درصد درآمد این بخش را ساختند. نرخ تمدید سالانه مشتریان سازمانی به  ۴۹درصد ارتقا یافته است که نشان دهنده رضایت بالای مشتریان است.",
+        "search_text": "فعالیت شرکت در دو بخش اصلی سازمان دهی شده است: الف ) بخش خدمات ابری و زیرساخت داده (Cloud &amp; Data Services): درآمد این بخش با 53درصد رشد به 011میلیارد تومان رسید که 95درصد کل درآمد شرکت را تشکیل می دهد. به دلیل ارتقای پهنای باند و سرمایه گذاری سنگین در امنیت شبکه، حاشیه سود این بخش از 33٪ به 12٪ کاهش یافت. ب ) بخش راهکارهای هوش مصنوعی و نرم افزار سازمانی (Enterprise AI): درآمد این بخش 57میلیارد تومان ثبت شد . قراردادهای اشتراک سالانه (SaaS) 06 درصد درآمد این بخش را ساختند. نرخ تمدید سالانه مشتریان سازمانی به 49درصد ارتقا یافته است که نشان دهنده رضایت بالای مشتریان است.",
+        "token_count": 111
+      },
+      {
+        "chunk_id": "35b43e59-6657-5a77-9926-ce0eef5e4863",
+        "chunk_index": 4,
+        "page": "3",
+        "text": "شرکت برای مهار رشد هزینه های عملیاتی سه اقدام راهبردی را آغاز کرده است: .۱مهاجرت به معماری ترکیبی ابری (Hybrid Cloud) جهت کاهش اتکا به تأمین کنندگان خارجی سرور. .۲راه اندازی مرکز داده اختصاصی در منطقه ویژه اقتصادی پیام تا پایان شش ماهه اول .۵۰۴۱ .۳خودکارسازی فرآیندهای استقرار مدل های زبانی جهت کاهش هزینه های نگه داری نرم افزار.\nبرآورد مدیریت حاکی از آن است که این اقدامات موجب صرفه جویی  ۰۲میلیارد تومانی در سال  ۵۰۴۱خواهد شد.",
+        "search_text": "شرکت برای مهار رشد هزینه های عملیاتی سه اقدام راهبردی را آغاز کرده است: .1مهاجرت به معماری ترکیبی ابری (Hybrid Cloud) جهت کاهش اتکا به تأمین کنندگان خارجی سرور. .2راه اندازی مرکز داده اختصاصی در منطقه ویژه اقتصادی پیام تا پایان شش ماهه اول .5041 .3خودکارسازی فرآیندهای استقرار مدل های زبانی جهت کاهش هزینه های نگه داری نرم افزار.\nبرآورد مدیریت حاکی از آن است که این اقدامات موجب صرفه جویی 02میلیارد تومانی در سال 5041خواهد شد.",
+        "token_count": 77
+      }
+    ],
+    "4eabf7a1-ff06-5152-868d-d342524ddf4f": [
+      {
+        "chunk_id": "a244476f-9c08-52b6-ae89-c20685f6a7cd",
+        "chunk_index": 0,
+        "page": "1",
+        "text": "Synthetic Document - Alborz Pioneer Tech | Consolidated Operations",
+        "search_text": "Synthetic Document - Alborz Pioneer Tech | Consolidated Operations",
+        "token_count": 9
+      },
+      {
+        "chunk_id": "0cc42865-8c2c-5ec7-bd5b-cb4ade9f39aa",
+        "chunk_index": 1,
+        "page": "1",
+        "text": "For the fiscal year ended December 31, 2025, total revenue was $42.5 million, compared to $34.2 million in fiscal year 2024, representing an increase of 24.3%. Operating income was $8.2 million in 2025 compared to $10.5 million in 2024. The reduction in operating margin from 30.7% to 19.3% was primarily driven by\nelevated GPU computing cluster lease expenses and increased talent acquisition costs.\nTable: Key Financial Metrics (in USD Millions)\nFinancial Metric | FY 2024 | FY 2025 | YoY Change Total Revenue | $34.2M | $42.5M | +24.3% Gross Profit | $22.1M | $24.8M | +12.2% Operating Income | $10.5M | $8.2M | -21.9% R&amp;D Expenditures | $8.4M | $12.1M | +44.0% Operating Cash Flow | $7.8M | $6.4M | -17.9%",
+        "search_text": "For the fiscal year ended December 31, 2025, total revenue was $42.5 million, compared to $34.2 million in fiscal year 2024, representing an increase of 24.3%. Operating income was $8.2 million in 2025 compared to $10.5 million in 2024. The reduction in operating margin from 30.7% to 19.3% was primarily driven by\nelevated GPU computing cluster lease expenses and increased talent acquisition costs.\nTable: Key Financial Metrics (in USD Millions)\nFinancial Metric | FY 2024 | FY 2025 | YoY Change Total Revenue | $34.2M | $42.5M | +24.3% Gross Profit | $22.1M | $24.8M | +12.2% Operating Income | $10.5M | $8.2M | -21.9% R&amp;D Expenditures | $8.4M | $12.1M | +44.0% Operating Cash Flow | $7.8M | $6.4M | -17.9%",
+        "token_count": 122
+      },
+      {
+        "chunk_id": "aa7f5c5b-4f3c-50bb-9280-29f087a44bb0",
+        "chunk_index": 2,
+        "page": "2",
+        "text": "The Enterprise SaaS segment generated $25.8 million, up 28.0% year-over-year, reflecting strong market adoption of the Document Copilot enterprise edition.\nCloud Infrastructure services contributed $16.7 million, representing 39.3% of revenue.\nCapital expenditures totaled $5.4 million for the year, focusing on:\n- High-performance GPU inference servers for on-premises enterprise deployments.\n- Low-latency network interconnects between Tehran and regional data availability zones.\n- SOC 2 Type II compliance audits and international security certifications.",
+        "search_text": "The Enterprise SaaS segment generated $25.8 million, up 28.0% year-over-year, reflecting strong market adoption of the Document Copilot enterprise edition.\nCloud Infrastructure services contributed $16.7 million, representing 39.3% of revenue.\nCapital expenditures totaled $5.4 million for the year, focusing on:\n- High-performance GPU inference servers for on-premises enterprise deployments.\n- Low-latency network interconnects between Tehran and regional data availability zones.\n- SOC 2 Type II compliance audits and international security certifications.",
+        "token_count": 71
+      }
+    ],
+    "a8c17bba-da24-56c2-97d3-a83e199016de": [
+      {
+        "chunk_id": "f62467bd-79e1-50d4-b264-8ad7c10d7acc",
+        "chunk_index": 0,
+        "page": "1",
+        "text": "سند استراتژی پیشگامان البرز برای سال های  ۵۲۰۲تا  ۶۲۰۲بر سه محور کلیدی استوار است: .۱استقرار معماری Cloud Native و پایگاه داده توزیع شده با استفاده از Supabase و PostgreSQL. .۲پیاده سازی مدل های بازیابی ترکیبی (Hybrid Retrieval: RRF + pgvector) برای اسناد دو زبانه. .۳اتصال ایمن به API های OpenAI با حفظ استانداردهای حریم خصوصی و امنیت داده های مشتریان.\nتوسعه محصول Document Copilot امکان پردازش سازمانی اسناد فارسی و انگلیسی را با دقت بالا فراهم کرده است.",
+        "search_text": "سند استراتژی پیشگامان البرز برای سال های 5202تا 6202بر سه محور کلیدی استوار است: .1استقرار معماری Cloud Native و پایگاه داده توزیع شده با استفاده از Supabase و PostgreSQL. .2پیاده سازی مدل های بازیابی ترکیبی (Hybrid Retrieval: RRF + pgvector) برای اسناد دو زبانه. .3اتصال ایمن به API های OpenAI با حفظ استانداردهای حریم خصوصی و امنیت داده های مشتریان.\nتوسعه محصول Document Copilot امکان پردازش سازمانی اسناد فارسی و انگلیسی را با دقت بالا فراهم کرده است.",
+        "token_count": 78
+      },
+      {
+        "chunk_id": "04297d22-344b-5d3b-bff5-00c4212565c8",
+        "chunk_index": 1,
+        "page": "2",
+        "text": "اهداف عملکردی تعیین شده برای سال آینده شامل موارد زیر است: الف ) پایداری و دسترسی پذیری سیستم (Uptime SLA) به میزان  ۵۹.۹۹درصد تضمین می گردد. ب ) میانگین زمان پاسخگویی به درخواست های جستجوی اسناد (P95 Latency) زیر  ۰۵۳میلی ثانیه تثبیت می شود. ج ) گسترش مشتریان فعال بخش سازمانی از  ۵۷سازمان به بیش از  ۰۲۱سازمان دولتی و خصوصی. د ) پیاده سازی سازوکار اعتبارسنجی دقیق استنادها (Citation Grounding) برای حذف خطاهای احتمالی.",
+        "search_text": "اهداف عملکردی تعیین شده برای سال آینده شامل موارد زیر است: الف ) پایداری و دسترسی پذیری سیستم (Uptime SLA) به میزان 59.99درصد تضمین می گردد. ب ) میانگین زمان پاسخگویی به درخواست های جستجوی اسناد (P95 Latency) زیر 053میلی ثانیه تثبیت می شود. ج ) گسترش مشتریان فعال بخش سازمانی از 57سازمان به بیش از 021سازمان دولتی و خصوصی. د ) پیاده سازی سازوکار اعتبارسنجی دقیق استنادها (Citation Grounding) برای حذف خطاهای احتمالی.",
+        "token_count": 74
+      }
+    ],
+    "3e65b20d-84ee-5ea7-b0f8-c1e26374403c": [
+      {
+        "chunk_id": "6d67e628-3d10-5e74-9422-a660dca307d0",
+        "chunk_index": 0,
+        "page": "1",
+        "text": ".۱آمار سرمایه انسانی و ترکیب تخصصی تیم ها در پایان سال مالی ۴۰۴۱، تعداد همکاران تمام وقت شرکت به  ۰۸۴نفر رسید که رشد  ۸۱درصدی را نشان می دهد. ترکیب تخصصی همکاران به شرح زیر است : ۲۶ درصد در بخش مهندسی نرم افزار، هوش مصنوعی و زیرساخت، ۳۲درصد در بخش بازاریابی و فروش سازمانی، و  ۵۱درصد در بخش مالی و پشتیبانی فعالیت می کنند. نرخ نگه داشت نخبگان و نیروهای کلیدی شرکت به  ۹۸درصد رسید که نشان دهنده محیط کاری رضایت بخش است.\n.۲توانمندسازی، آموزش و ارزیابی عملکرد\nدر طول سال  ۴۰۴۱بیش از  ۰۰۴,۲۱نفر-ساعت آموزش تخصصی برای کارکنان برگزار گردید. دوره های آموزشی متمرکز بر هوش مصنوعی مولد، استانداردهای تست نرم افزار و امنیت داده ها بوده است.",
+        "search_text": ".1آمار سرمایه انسانی و ترکیب تخصصی تیم ها در پایان سال مالی 4041، تعداد همکاران تمام وقت شرکت به 084نفر رسید که رشد 81درصدی را نشان می دهد. ترکیب تخصصی همکاران به شرح زیر است : 26 درصد در بخش مهندسی نرم افزار، هوش مصنوعی و زیرساخت، 32درصد در بخش بازاریابی و فروش سازمانی، و 51درصد در بخش مالی و پشتیبانی فعالیت می کنند. نرخ نگه داشت نخبگان و نیروهای کلیدی شرکت به 98درصد رسید که نشان دهنده محیط کاری رضایت بخش است.\n.2توانمندسازی، آموزش و ارزیابی عملکرد\nدر طول سال 4041بیش از 004,21نفر-ساعت آموزش تخصصی برای کارکنان برگزار گردید. دوره های آموزشی متمرکز بر هوش مصنوعی مولد، استانداردهای تست نرم افزار و امنیت داده ها بوده است.",
+        "token_count": 118
+      },
+      {
+        "chunk_id": "0ff8e6dd-4379-552c-82b9-f3fc8b3cc57d",
+        "chunk_index": 1,
+        "page": "2",
+        "text": "ارزیابی  ۰۶۳درجه عملکرد برای  ۵۹درصد همکاران انجام شد و  ۰۳درصد ارتقاهای مدیریتی از داخل سازمان صورت گرفت.",
+        "search_text": "ارزیابی 063درجه عملکرد برای 59درصد همکاران انجام شد و 03درصد ارتقاهای مدیریتی از داخل سازمان صورت گرفت.",
+        "token_count": 17
+      }
+    ]
+  }
+}
